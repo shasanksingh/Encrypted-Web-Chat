@@ -1,0 +1,15 @@
+{
+  "name": "Encrypted Web Chat",
+  "version": "0.0.1",
+  "description": "Project for GE2345",
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "dependencies": {
+    "express": "^4.10.2",
+    "install": "^0.8.2",
+    "npm": "^3.10.9",
+    "sjcl": "^1.0.6",
+    "socket.io": "^1.5.1"
+  }
+}

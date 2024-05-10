@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Users\\singh\\AppData\\Local\\fnm_multishells\\9288_1706783082463\\node.exe',
+1 verbose cli   'D:\\Project\\Encrypted-Web-Chat\\Encrypted-Web-Chat-master\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@3.10.10
+3 info using node@v16.19.1
+4 verbose stack Error: Invalid name: "Encrypted Web Chat"
+4 verbose stack     at ensureValidName (D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:336:15)
+4 verbose stack     at Object.fixNameField (D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:215:5)
+4 verbose stack     at D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:32:38
+4 verbose stack     at Array.forEach (<anonymous>)
+4 verbose stack     at normalize (D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:31:15)
+4 verbose stack     at final (D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\read-package-json\read-json.js:349:5)
+4 verbose stack     at then (D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\read-package-json\read-json.js:124:5)
+4 verbose stack     at D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\read-package-json\read-json.js:243:12
+4 verbose stack     at D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+4 verbose stack     at FSReqCallback.readFileAfterClose [as oncomplete] (node:internal/fs/read_file_context:68:3)
+5 verbose cwd D:\Project\Encrypted-Web-Chat\Encrypted-Web-Chat-master
+6 error Windows_NT 10.0.22621
+7 error argv "C:\\Users\\singh\\AppData\\Local\\fnm_multishells\\9288_1706783082463\\node.exe" "D:\\Project\\Encrypted-Web-Chat\\Encrypted-Web-Chat-master\\node_modules\\npm\\bin\\npm-cli.js" "run" "start"
+8 error node v16.19.1
+9 error npm  v3.10.10
+10 error Invalid name: "Encrypted Web Chat"
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
